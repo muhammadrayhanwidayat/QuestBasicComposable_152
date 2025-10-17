@@ -170,3 +170,11 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 color = Color.Red,
                 fontWeight = FontWeight.Bold, // Berdasarkan sumber [35]
                 fontFamily = FontFamily.Cursive, // Berdasarkan sumber [36])
+                modifier = Modifier.align(
+                    alignment = Alignment.Center
+                ))
+        }
+
+
+    }
+}

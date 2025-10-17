@@ -16,13 +16,11 @@ import com.example.questbasiccomposable_3nim.ui.theme.QuestBasicComposable_3NimT
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             QuestBasicComposable_3NimTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                    TataletakRow(
+                        modifier = Modifier.padding()
                     )
                 }
             }

@@ -158,3 +158,13 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 .background(color = Color.Cyan), // Berdasarkan sumber [26]
             contentAlignment = Alignment.Center // Berdasarkan sumber [27]
         ) {
+
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit
+            )
+            Text(
+                text = "My Image",
+                fontSize = 50.sp, // Berdasarkan sumber [33]
+                color = Color.Red,

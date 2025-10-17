@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
             QuestBasicComposable_3NimTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     TataletakRow(
-                        modifier = Modifier.padding()
+                        modifier = Modifier.padding(paddingValues = innerPadding)
                     )
                 }
             }
